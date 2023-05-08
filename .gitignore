@@ -1,0 +1,21 @@
+# .gitignore
+
+# Node
+my-app/node_modules/
+my-app/build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+
+# Python Virtual Environment
+venv/
+env/
+
+# System Environment
+.env
+
