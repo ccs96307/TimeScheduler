@@ -1,5 +1,6 @@
 // src/Horizon.js
 import React, { useEffect } from 'react';
+import styles from './Horizon.module.css';
 
 function Horizon() {
   useEffect(() => {
@@ -8,7 +9,13 @@ function Horizon() {
 
   return (
     <div>
-      <h1>Horizon Page</h1>
+      <div className={styles.container}>
+        <div className={`${styles.block} ${styles.today}`}>Today</div>
+        <div className={styles.block}>Week</div>
+        <div className={styles.block}>Month</div>
+        <div className={styles.block}>Year</div>
+        <div className={styles.block}>Life</div>
+      </div>
     </div>
   );
 }

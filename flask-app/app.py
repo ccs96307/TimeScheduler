@@ -19,4 +19,4 @@ def catch_all(path: Optional[str]) -> Tuple[str, int]:
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run("0.0.0.0", port=22999 , debug=True)
